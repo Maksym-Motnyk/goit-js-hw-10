@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 360px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  cursor: pointer;
+}
