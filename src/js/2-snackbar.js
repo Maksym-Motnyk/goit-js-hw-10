@@ -1,3 +1,6 @@
+import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
+
 function createPromise(delay, state) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
